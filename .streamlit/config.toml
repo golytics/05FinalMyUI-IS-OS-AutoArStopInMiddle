@@ -1,0 +1,7 @@
+[theme]
+backgroundColor = "#FFFFFF"
+font = "Tajawal"
+textColor = "#000000"#"#1dc21d"
+primaryColor = "#00008B"# blue black like the website. it shos in hover over
+# backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F0F0"
