@@ -68,7 +68,7 @@ with left_co:
 with cent_co:
   # st.image(logo)
   st.markdown(
-      """<center><a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ36-OntLJR74Q-i_aFnPp77xF4jL6F1ekYZGXbnrbCsn16Mh2DraLkQmJVs3mbgpV1CR1QN2JX6">
+      """<center><a href="https://www.morafiqy.com">
       <img src="data:image/png;base64,{}" width="100">
       </a></center>""".format(
           base64.b64encode(
@@ -160,13 +160,13 @@ with col1:
   st.write(' ')
 
 with col2:
-  url = "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ36-OntLJR74Q-i_aFnPp77xF4jL6F1ekYZGXbnrbCsn16Mh2DraLkQmJVs3mbgpV1CR1QN2JX6"
+  url = "https://calendar.google.com/calendar/appointments/schedules/AcZssZ2BaKz9afnmfWTN3djAAR17pweSaeRa6FSgqi0ISQ3mbhb6Bm99R7mBKf7odChWFXN02zM1YZRQ"
   # # st.write(<div style="text-align: center"> url </div>
   st.write("إ[حصل على موعد استشارة مجانية](%s)" % url)
 
   #hyperlinking an image
   st.markdown(
-      """<center><a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ36-OntLJR74Q-i_aFnPp77xF4jL6F1ekYZGXbnrbCsn16Mh2DraLkQmJVs3mbgpV1CR1QN2JX6">
+      """<center><a href="https://www.morafiqy.com">
       <img src="data:image/png;base64,{}" width="100">
       </a></center>""".format(
           base64.b64encode(open("images/Logo_Transperentackground.png", "rb").read()).decode()
@@ -209,7 +209,7 @@ text-align: center;
 }
 </style>
 <div class="footer">
-<p>Powered by: <a href="https:www.Morafiqy.com" target="_blank">Morafiqy</a></p>
+<p>Powered by: <a href="https://www.Morafiqy.com">Morafiqy</a></p>
 <!--img src="images/Logo_Transperentackground.png" width="30" height="30">
 </div>
 """
